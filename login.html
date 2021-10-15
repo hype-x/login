@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">   
+    <script src="https://kit.fontawesome.com/4744dab207.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>User Login</title>
+</head>
+<body>
+    <div class="form-container" id="loginForm" style="height: 320px; margin-top: 10%;">
+        <form action="" method="post">
+            <button type="button" class="btnClose""><i class="far fa-times-circle"></i></button>
+            <div class="form-heading form-heading-login">
+                <span><a href="register.html">Register</a></span>
+                <span><a href="login.html">Sign In</a></span>
+            </div>
+            <div class="form-items form-items-login">
+                <div class="form-items-col">
+                    <div class="form-item">
+                        <span><i class="far fa-envelope"></i></span>
+                        <input type="email" name="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div class="form-item">
+                        <span><i class="fas fa-lock"></i></span>
+                        <input type="password"  name="psw" placeholder="Enter Your Password" maxlength="10" required>
+                    </div>
+                </div>
+            </div>
+            <div class="direct-link link-forgot-psw">
+                <span><a href="login.html">Forgot Password</a></span>
+            </div>
+            <button type="button" class="btn-submit" name="btnLogin">Sign In</button>
+        </form> 
+    </div>
+</body>
+</html>
